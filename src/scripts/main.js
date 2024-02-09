@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    const link = document.querySelector('#link');
+    const link = document.querySelector('#profile-link');
 
     const photo = document.querySelector('#photo');
     const name = document.querySelector('#name');
