@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    const link = document.querySelector('#profile-link');
+    const link = document.querySelector('#link');
 
     const photo = document.querySelector('#photo');
     const name = document.querySelector('#name');
@@ -20,5 +20,6 @@ document.addEventListener('DOMContentLoaded', function(){
         following.innerText = json.following;
         repositories.innerText = json.public_repos;
         link.href = json.html_url;
+        
     })
 })
